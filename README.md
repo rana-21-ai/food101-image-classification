@@ -28,3 +28,27 @@ Image classification is a core task in computer vision with applications in:
 - AI-powered visual understanding
 
 This project reflects hands-on experience with deep learning pipelines and model training.
+
+## How to Run
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+
+Train a CNN baseline on Food-101:
+
+python train.py --epochs 3 --batch_size 32
+
+Run inference on one image:
+
+python predict.py --image path/to/your_image.jpg --ckpt checkpoints/food101_cnn.pt
+
+
+
+Notes
+
+Uses a simple CNN baseline (PyTorch) with standard image transforms.
+Saves the best checkpoint based on test accuracy.
+
+
+
