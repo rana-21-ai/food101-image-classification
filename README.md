@@ -1,6 +1,5 @@
 # food101-image-classification
 CNN-based image classification using PyTorch (Food-101 dataset)
-# Food101 Image Classification
 
 This project implements an end-to-end image classification pipeline using PyTorch on the Food-101 dataset.
 
